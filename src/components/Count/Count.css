@@ -1,0 +1,35 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 12%;
+    width: 4rem;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.button {
+    background-color: #A5C9CA;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10%;
+    border: 2px solid gainsboro;
+    color: grey;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #395B64   ;
+    color: white;
+}

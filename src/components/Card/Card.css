@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    border: 2px solid gray;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.price {
+    color: rgb(25, 163, 25);
+    font-weight: 600;
+}
+
+.img {
+    width: 100%;
+}
