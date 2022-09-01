@@ -16,12 +16,12 @@ export const products = [
         img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQl01kFEGCJOnQN6dl2TzifD64frbc6fpxjAMsGokun0Kti2PYsxOYVyfZ7xUeuQZG1bEOMsk1Pe-M&usqp=CAc"
     },
     {
-        title: "Sony WH-100XM4",
+        title: "Sony WH-1000XM4",
         price: 50,
         id: 3,
         stock: 10,
         description: "Buenos auriculaes para escuchar musica con una gran cancelacion de ruido",
-        img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJI6fTvqUy-pVLCbvFXvf9wM1vjiLtp8LgIvh3copPQ6K69nMn0h8bWTQc36qUl9hKKBCWvl1hQg&usqp=CAc"
+        img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlS77EG097t_PSi7B4RAlw8vNyhj74zel0bjHmooDvJwASsokbRY8__3LgLTZ7&usqp=CAc"
     },
     {
         title: "Samsung galaxy Watch 4",

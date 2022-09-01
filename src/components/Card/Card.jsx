@@ -15,8 +15,7 @@ export const Card = ({
             <img className='img' src={img} alt={`Imagen del producto ${title}`} />
         </div>
         <p className='price'>{price} $</p>
-        <p>Stock: {stock}</p>
-        <Count stock={10} />
+        <button className='button button-detail'>Ver mas detalles</button>
     </div>
   )
 }
