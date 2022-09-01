@@ -1,0 +1,16 @@
+.card-detail {
+    display: flex;
+    width: 100%;
+}
+
+.card-detail-left {
+    width: 50%;
+}
+
+.card-detail-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

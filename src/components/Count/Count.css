@@ -33,3 +33,14 @@
     background-color: #395B64   ;
     color: white;
 }
+
+.button-buy {
+    background-color: #7DCE13;
+    width: 100%;
+    margin-top: 1rem;
+    color: white;
+}
+
+.button-buy:hover {
+    background-color: #5BB318;
+}
