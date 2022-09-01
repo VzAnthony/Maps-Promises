@@ -3,6 +3,7 @@ export const products = [
         title: "Secretlab evo 2022",
         price: 500,
         id: 1,
+        category: 'silla',
         stock: 10,
         description: "Es una silla hecha de tela, super ergonomica, lo que toda persona que se la pasa horas sentado necesita",
         img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJI6fTvqUy-pVLCbvFXvf9wM1vjiLtp8LgIvh3copPQ6K69nMn0h8bWTQc36qUl9hKKBCWvl1hQg&usqp=CAc"
@@ -11,6 +12,7 @@ export const products = [
         title: "Razer Iskur",
         price: 200,
         id: 2,
+        category: 'silla',
         stock: 10,
         description: "Es una silla hecha de cuero, super ergonomica, lo que toda persona que se la pasa horas sentado necesita",
         img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQl01kFEGCJOnQN6dl2TzifD64frbc6fpxjAMsGokun0Kti2PYsxOYVyfZ7xUeuQZG1bEOMsk1Pe-M&usqp=CAc"
@@ -19,6 +21,7 @@ export const products = [
         title: "Sony WH-1000XM4",
         price: 50,
         id: 3,
+        category: 'tecnologia',
         stock: 10,
         description: "Buenos auriculaes para escuchar musica con una gran cancelacion de ruido",
         img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlS77EG097t_PSi7B4RAlw8vNyhj74zel0bjHmooDvJwASsokbRY8__3LgLTZ7&usqp=CAc"
@@ -27,6 +30,7 @@ export const products = [
         title: "Samsung galaxy Watch 4",
         price: 10,
         id: 4,
+        category: 'tecnologia',
         stock: 10,
         description: "Uno de los mejores Watch con wear OS, lo unico malo es la bateria",
         img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_ueKx9b8KQKlU98GlCazQ-vxldoSty666h0WSYxGXS4-zKtdNUe-G8nFYgFDTcNUsemcfgP_ouwU&usqp=CAc"
