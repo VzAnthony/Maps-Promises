@@ -1,0 +1,14 @@
+.header {
+    background-color: #554994;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+}
