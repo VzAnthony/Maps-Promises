@@ -1,13 +1,10 @@
 import React from 'react'
-import { Count } from '../Count/Count'
 import './Card.css'
+import { Link } from 'react-router-dom';
 
-export const Card = ({
-    title = 'Producto de testeo',
-    img = 'https://pbs.twimg.com/media/DcwoS-VWkAIB60j.jpg',
-    price = 600,
-    stock = 10
-}) => {
+
+export const Card = ({item}) => {
+  const {title, img, price, id} = item
   return (
     <div className='card-container'>
         <h4>{title}</h4>
@@ -15,7 +12,9 @@ export const Card = ({
             <img className='img' src={img} alt={`Imagen del producto ${title}`} />
         </div>
         <p className='price'>{price} $</p>
-        <button className='button button-detail'>Ver mas detalles</button>
+        <Link to={`/detalles/${id}`}>
+          <button className='button button-detail'>Ver mas detalles</button>
+        </Link>
     </div>
   )
 }
