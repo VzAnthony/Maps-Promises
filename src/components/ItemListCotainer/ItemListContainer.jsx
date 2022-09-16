@@ -9,8 +9,6 @@ export const ItemListContainer = () => {
 
   const {categoria} = useParams()
 
-  console.log(categoria)
-
 
   const getProducts = () => new Promise((resolve, reject) => {
     if(categoria) {

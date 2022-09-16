@@ -18,10 +18,10 @@ export const Navbar = () => {
                 <li>Tecnologia</li>
               </Link>
 
-              <Link to='/categoria/MigaDePan'>
-                <li>Miga de pan</li>
+              <Link to='/cart'>
+                <li>Carrito</li>
               </Link>
-
+              
             </ul>
         </nav>
     </header>

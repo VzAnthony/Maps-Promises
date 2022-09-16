@@ -10,5 +10,8 @@
     list-style-type: none;
     margin: 0;
     font-weight: 500;
+}
+
+.nav-items a{
     color: white;
 }
