@@ -20,7 +20,7 @@ export const Count = ({stock, initial = 1, onAdd}) => {
             <button className='button' onClick={subtractCounter}>-</button>
             <button className='button' onClick={addCounter}>+</button>
         </div>
-        <button className='button button-buy'>Añadir al carrito</button>
+        <button className='button button-buy' onClick={() => onAdd(count)}>Añadir al carrito</button>
     </div>
   )
 }

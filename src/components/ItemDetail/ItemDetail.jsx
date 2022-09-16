@@ -1,10 +1,21 @@
+import { useCartContext } from "../../context/CartContext"
 import { Count } from "../Count/Count"
+
 import './ItemDetail.css'
+
 
 export const ItemDetail = ({item}) => {
 
+    const {addToCart} = useCartContext()
+
+  
+
     const onAdd = (quantity) => {
-        console.loog(quantity)
+        const newItem = {
+            ...item,
+            quantity
+        }
+        addToCart(newItem)
     }
 
   return (
